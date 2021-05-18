@@ -1,2 +1,4 @@
 .nfs*
 /.tmp/
+/nltk_data/
+/dialogs/
