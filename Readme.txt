@@ -18,7 +18,7 @@ The dataset was created by running the following commands:
     ./subword-nmt/apply_bpe.py -c Ubuntu_Codes_5000.txt < Raw/ResponseContextPairs/raw_testing_responses.txt > raw_testing_responses_5000BPE.txt
 
 
-    python3 scripts/convert-text2dict.py Train_Shuffled_Dataset_5000BPE.txt Train.dialogues
+    python3 scripts/convert-text2dict.py Train_Shuffled_Dataset_5000BPE.txt Train
         INFO:text2dict:Total word frequency in dictionary 52743434 
         INFO:text2dict:Vocab size 5170
         INFO:text2dict:Saving to Train.dialogues.pkl.
